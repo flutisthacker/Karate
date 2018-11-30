@@ -1,0 +1,34 @@
+{
+  "name": "karate",
+  "version": "1.0.0",
+  "description": "Karate Web Application",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flutisthacker/Karate.git"
+  },
+  "keywords": [
+    "karate"
+  ],
+  "author": "Saman Maharjan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flutisthacker/Karate/issues"
+  },
+  "homepage": "https://github.com/flutisthacker/Karate#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "hammerjs": "^2.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
